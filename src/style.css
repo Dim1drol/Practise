@@ -126,6 +126,10 @@ font-size: 30pt;
         
         
     }
+    .details_container a{
+        text-decoration: none;
+        color: green;
+    }
 .categories{
     width: 150px;
     height: 50px;
@@ -178,8 +182,7 @@ font-size: 30pt;
 
 
 .category_btn{
-    
-    
+   
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
     height: 50px;
