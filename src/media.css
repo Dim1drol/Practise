@@ -1,0 +1,37 @@
+header{
+    
+    background-repeat: repeat-y;
+    
+}
+.mainmenu {
+    justify-content: center;
+   
+}
+.mainmenu #main_logo{
+    display: none;
+}
+.flex-container{
+    flex-direction: column;
+    
+}
+.plate{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+.details_container{
+    flex-direction: column;
+    align-content: center;
+}
+.categories{
+    margin-bottom: 50px;
+}
+#carousel div{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+

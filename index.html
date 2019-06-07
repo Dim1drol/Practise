@@ -3,7 +3,8 @@
     
 <head>
         
-        <link rel="stylesheet"  href="./src/style.css">  
+        <link rel="stylesheet"  href="src/style.css"> 
+        <link rel="stylesheet"  href="src/media.css" media="all and (max-width:1024px)">  
         <script src="./src/main.js">
  
 
@@ -11,30 +12,38 @@
 </head>
 <body>
     
-    <header class = "head">
-        <menu type = "list" class="mainmenu">
+    <header class = "head" style="background-image: url(img/background.jpg)">
+        <div  class="mainmenu">
         
-            
+                <div id = "main_logo">
+                        <img src="img/main_logo.png" alt="" >
+                    </div>
             <ul>
-            <img src="img/mainlogo.png" alt="" id = "main_logo">
+        
            <li><a href = "#">ALL PRODUCTS</a></li>
            <li><a href = "#">ABOUT US </a></li>
            <li><span id = "line"><a href = "#">LOG IN </a></span></li>
            <li><a href = "#">SING UP</a></li>
            </ul>
-        </menu>
+        
+        </div>
         <div class = "head_one">
+           
         <p ><h2>Quick Search for Your <span id = "greentext">Perfect Product</span></h2></p>
         <p><h3>
+            
+            
             <ul>
                 <li>Inovate</li>
                 <li> List</li>
                 <li> Connect</li> 
             </ul>
+        
         </h3></p>
+    
         </div>
     
-        <form class="search_line">
+        <div class="search_line">
             
                 <button class="category_btn">Category ▼</button>
                 <div class="drop_items">
@@ -45,7 +54,7 @@
             <input type="search" name = "search_line" id = "search_area">
             <button type="submit" name = "search_button" id = "search_btn">Start Searching </button>
             
-        </form>
+            </div>
         <div class = "details_container">
         <div class="categories">
             <img src="img/icon_cat.png" alt="" width="15px" height="15px">
@@ -140,8 +149,11 @@
     
             <section>
             <div class="bottom_content">
+                <div class = "img">
                 <img src="img/footlogo.png" alt="">
-                <menu type = "list" class="bottom_menu">
+                </div>
+
+                <div  class="bottom_menu">
             
                     <ul>
                     
@@ -150,7 +162,7 @@
                    <li><a href = "#">PRIVACY POLICY</a></li>
                    <li><a href = "#">CONTACT US</a></li>
                    </ul>
-                </menu>
+                </div>
             </div>
             <div class="footer">
                 <p>© 2018 Find Parrot</p>
